@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contant{
+    background-color: #f6f6f6;
+    width: 800px;
+    margin: auto;
+}
+.contant .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.contant .header input{
+    height: 50px;
+    width: 75%;
+    margin: 20px;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 7px #b3aaaa;
+    border-radius: 5px;
+}
+.contant .header input:focus{
+    border: #F44336 2px solid;
+    box-shadow:none
+}
+.contant .header button{
+    background-color: #F44336;
+    color: white;
+    border: none;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contant .header button:hover{
+    background-color: #e23629;
+}
+.repo{
+    background-color: #ecebeb;
+    padding: 20px;
+    font-size: 18px;
+}
+.divRepo{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px #b3aaaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divRepo h4{
+    padding-left: 15px ;
+}
+.divRepo a{
+    margin-right: 15px ;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #E91E63;
+    color:white;
+    border-radius: 5px;
+}
+.divRepo a:hover{
+    background-color: #c21951;
+}
+@media  (max-width: 991px){
+    .contant{
+        width: 100%;
+    }
+}
